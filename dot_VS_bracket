@@ -1,0 +1,13 @@
+const products = {
+    id: 101,
+    name: 'Laptop',
+    price: 799.99,
+    category: 'Electronics'
+  }
+//   dot notation
+//   console.log(products.name);
+
+//   bracket notation
+
+const productsName = products["name"];
+console.log(productsName);
